@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Quiz</title>
+</head>
+<body>
+    <div id="start"> Begin! </div>
+    <div id="quiz" style = "display: none;">
+        <div id="question"></div>
+        <div id="choices">
+            <div class="choice" id="A" onclick="submitAnswer('A')"></div>
+            <div class="choice" id="B" onclick="submitAnswer('B')"></div>
+            <div class="choice" id="C" onclick="submitAnswer('C')"></div>
+        </div>
+        <div id="timer">
+            <div id="counter"></div>
+            <div id="bTimeGauge"></div>
+            <div id="timeGauge"></div>
+        </div>
+        <div id="progress"></div>
+    </div>
+    <div id="scoreBoard" style="display: none"></div>>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="questions.js"></script>
+</body>
+</html>
